@@ -28,8 +28,7 @@ ul{
     list-style: none;
     position: absolute;
     right: 0px;
-    /*bottom: -16px;*/
-    top: 15px;
+    bottom: 5px;
     font-size: 14px;
     font-family: 宋体;
 
@@ -66,12 +65,14 @@ li{
 }
 #navigon-pic-wrap img{
     width: 100%;
+    display:block;
 }
 /*三个图片的内容上半部分*/
 #all-picture{
     width: 980px;
     height: 400px;
     margin:0 auto;
+    padding-top: 10px;
 }
 #all-picture img{
     width: 300px;
@@ -145,3 +146,7 @@ li{
     height: 280px;
     background-color: black;
 }
+#foot-content-top{
+    
+}
+
