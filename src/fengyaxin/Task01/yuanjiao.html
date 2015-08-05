@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+        #content{
+            width: 500px;
+            height: 400px;
+            border: solid black 1px;
+            position: absolute;/*可以是relative*/
+        }
+        .img1{
+            position:absolute;/*必须是obsolute 相对content父容器定位，不能相对自身*/
+            left: -4px;
+            top:-4px;
+
+        }
+        .img2{
+            position: absolute;
+            right: -4px;
+            top: -4px;
+        }
+        .img3{
+            position: absolute;
+            left: -4px;
+            bottom: -4px;
+
+        }
+        .img4{
+            position: absolute;
+            right: -4px;
+            bottom: -4px;
+        }
+        /*#a{*/
+            /*position: absolute;*/
+            /*margin-left: 0px;*/
+            /*margin-top: 0px;*/
+        /*}*/
+        /*#b{*/
+            /*position: absolute;*/
+            /*margin-right: 0px;*/
+            /*margin-top: 0px;*/
+        /*}*/
+        /*#c{*/
+            /*position: absolute;*/
+            /*margin-left: 0px;*/
+            /*margin-bottom: 0px;*/
+        /*}*/
+        /*#d{*/
+            /*position: absolute;*/
+            /*margin-right: 0px;*/
+            /*margin-bottom: 0px;*/
+        /*}*/
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <img src="a.png" class="img1"/>
+        <img src="yuanjiao.png" class="img2"/>
+        <img src="c.png" class="img3"/>
+        <img src="d.png" class="img4"/>
+
+    </div>
+
+
+</body>
+</html>

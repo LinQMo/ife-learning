@@ -1,0 +1,108 @@
+.div1{
+    background: red;
+    width: 960px;
+    //text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#three-column-composition {
+    position: relative;
+}
+
+/*.one{*/
+    /*width: 40px;*/
+    /*background: blue;*/
+/*}*/
+
+/*.two {*/
+    /*background: yellow;*/
+/*}*/
+
+/*.three {*/
+    /*width: 40px;*/
+    /*background: red;*/
+/*}*/
+
+/*.col-3-one {*/
+    /*/!*position: absolute;*!/*/
+    /*float: left;*/
+    /*left: 0px;*/
+/*}*/
+
+/*.col-3-three {*/
+    /*/!*position: absolute;*!/*/
+    /*float: right;*/
+    /*right: 0px;*/
+/*}*/
+
+/*.col-3-two {*/
+    /*position: static;*/
+    /*margin-left: 40px;*/
+    /*margin-right: 40px;*/
+/*}*/
+
+#two-column-composition1-left{
+    width: 300px;
+    background-color: aqua;
+    float: left;
+}
+
+#two-column-composition1-right{
+
+    background-color: blueviolet;
+
+}
+
+#two-column-composition2-left{
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+}
+#two-column-composition2-right{
+    background-color: darkcyan;
+    margin-left: 400px;
+}
+
+#three-column-composition-left {
+    width: 40px;
+    background: blue;
+    float: left;
+    left: 0px;
+}
+#three-column-composition-right {
+    width: 40px;
+    background: red;
+    float: right;
+    right: 0px;
+}
+#three-column-composition-middle {
+    position: static;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: brown;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

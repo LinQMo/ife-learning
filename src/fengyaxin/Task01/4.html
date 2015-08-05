@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宽度960px，居中显示</title>
+    <style>
+       /* div{
+            width: 960px;
+            background-color: red;
+            margin: 0px auto;
+        }*/
+
+        div{
+            background-color: chartreuse;
+            position: absolute;
+            right: 50%;/*浏览器宽度的百分之五十*/
+            margin-left: -480px;/*负边距产生元素流动，只能向上向左*/
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>水平居中显示</p>
+</div>
+
+</body>
+</html>

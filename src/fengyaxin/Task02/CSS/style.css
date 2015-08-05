@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#index-web{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#navigon{
+    width: 100%;
+    height: auto
+}
+#navigon-menu{
+    width: 100%;
+    height: 80px;
+    background-color:cadetblue;
+}
+#navigon-head{
+    width: 980px;
+    font-family: 宋体;
+    font-size: 14px;
+    margin: 0px auto;
+    float:right;
+}
+#navigon-menu img{
+    float: right;
+    margin-top: 31.5px;
+}
+
+
+
+/*#navigon-head p{*/
+    /*float: left;*/
+/*}*/
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 44px;
+}
+
+ul li{
+    display: inline;
+    margin-left: 28px;
+}
+
+
+
+#navigon-picture{
+    position: relative;
+}
+#navigon-picture-text-warp{
+    background-color:white;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    top: 319.5px
+}
+#navigon-picture-text-warp h1{
+    font-size: 14px;
+}
+#navigon-picture-text-warp p{
+    font-size: 12px;
+    padding: 10px 10px 30px 10px;
+    line-height: 150%;
+    margin-top: 12px;
+}
+#navigon-picture img{
+    width: 100%;
+}
+/*三个图片的内容上半部分*/
+#all-picture{
+    width: 980px;
+    height: 400px;
+    margin:0 auto;
+}
+#all-picture img{
+    width: 300px;
+    height: 180px;
+}
+#all-picture p{
+    width: 250px;
+    font-size: 12px;
+    line-height: 170%;
+    padding: 15px 30px 25px 30px;
+
+}
+.left,.middle,.right{
+    float: left;
+    margin-left: 10px;
+}
+
+.picture-wrap{
+    width: 320px;
+}
+
+/*自我介绍部分*/
+#myphoto{
+    width: 160px;
+    height: 160px;
+    margin: 0px auto;
+    position: relative;
+    top: -50px;
+}
+#myphoto img{
+    width: 160px;
+    height: 160px;
+    border-radius:80px ;
+}
+#content-introduce h2{
+    font-size: 20px;
+    font-family: "century Gothic";
+    text-align: center;
+    color: black;
+    /*margin-top: 50px;与头像相距50px*/
+
+}
+#content-introduce p{
+    width: 600px;
+    font-size: 14px;
+    color: black;
+    /*text-align: center;*/
+    margin: 0 auto;
+    margin-top: 50px;
+    /*white-space: pre;*/
+}
+#container{
+    width: 100%;
+    height: 800px;
+}
+#content-picture-wrap{
+    width: 100%
+    height: 400px;
+    background-color:gainsboro ;
+}
+#content-introduce{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+#footer{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+}
