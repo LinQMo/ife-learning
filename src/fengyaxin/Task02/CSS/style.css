@@ -3,7 +3,6 @@
     padding: 0px;
 }
 
-
 #navigon{
     width: 100%;
     height: auto
@@ -85,17 +84,19 @@ li{
     padding: 15px 30px 25px 30px;
 
 }
-.left,.middle,.right{
+
+.picture-wrap{
+    width: 300px;
     background-color: white;
     float: left;
     margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
-
-.picture-wrap{
-    width: 320px;
-    /*padding: 10px 10px auto 10px;*/
-}
-
+ #all-picture div:first-child{
+     margin-left:0px;
+ }
 /*自我介绍部分*/
 #myphoto{
     width: 160px;
@@ -121,7 +122,6 @@ li{
     width: 600px;
     font-size: 14px;
     color: black;
-    /*text-align: center;*/
     margin: 0 auto;
     margin-top: 50px;
     /*white-space: pre;*/
