@@ -1,0 +1,231 @@
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: " ";
+    clear:both;
+}
+html {
+    font-size: 12px;
+    font-family: "sans-serif", "宋体";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header-wrapper {
+    position: relative;
+    min-width: 980px;
+    background-color: dodgerblue;
+}
+header {
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    position: relative;
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    /*padding-top: 30px;*/
+    /*padding-bottom: 5px;*/
+}
+#header-logo {
+    position:absolute;
+    bottom: 5px;
+}
+#header-nav {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    /*float: right;*/
+    font-size: 14px;
+    color: white;
+    /*margin-bottom: 5px;*/
+}
+#header-nav li {
+    display: inline-block;
+    margin-right: 28px;
+}
+#header-nav li:last-child {
+    margin-right: 0;
+}
+#header-github {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+#banner-wrapper {
+    position: relative;
+    min-width: 980px;
+    /*background-image: url("img/banner-bg.jpg");*/
+}
+#banner-img{
+    display: block;
+    width: 100%;
+}
+#banner-content-wrapper {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+#banner-desc-background, #banner-desc {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#banner-desc-background {
+    height: 100px;
+    background-color: white;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, 0));
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+}
+#banner-desc {
+    padding: 10px 10px 30px;
+}
+
+#banner-desc-title {
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+#banner-desc-content {
+    line-height: 150%;
+}
+
+#main-content-wrapper {
+    min-width: 980px;
+    padding: 10px 0 150px;
+    background-color: silver;
+}
+
+#pic-view-wrapper {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+}
+.pic-view {
+    float: left;
+    width: 320px;
+    margin-right: 10px;
+    /*padding: 10px;*/
+    background-color: white;
+}
+.pic-view:last-child {
+    margin-right: 0;
+}
+.pic-view-separator {
+    /*float:left;*/
+    position: absolute;
+    /*left: 320px;*/
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background-color: silver;
+}
+.pic-view-separator1{
+    left: 320px;
+}
+.pic-view-separator2{
+    left: 650px;
+}
+.pic-view-img {
+    width: 300px;
+    height: 180px;
+    margin: 10px 10px 15px;
+}
+.pic-view-desc {
+    line-height: 170%;
+    margin: 0 30px 25px;
+}
+.pic-view-desc p {
+    text-indent: 2em;
+    margin: 0;
+}
+
+#self-intro-wrapper {
+    min-width: 980px;
+    background-color: white;
+}
+#self-intro {
+    width: 600px;
+    margin: 0 auto 200px;
+}
+#self-intro-head-img {
+    display: block;
+    position: relative;
+    width: 100px;
+    top: -50px;
+    margin: -30px auto 0;
+    border-radius: 999px;
+}
+#self-intro-title {
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-weight: inherit;
+}
+/*#self-intro-content {*/
+    /**/
+/*}*/
+
+/*#footer-wrapper {*/
+    /*background-color: black;*/
+    /*color: white;*/
+/*}*/
+footer {
+    min-width: 980px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /*width: 980px;*/
+    /*height: 200px;*/
+    /*margin: 0 auto;*/
+}
+#footer-nav-wrapper {
+    padding: 10px 0;
+    border-bottom: 1px solid darkgray;
+}
+#footer-nav {
+    margin: 0 auto;
+}
+#footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+#footer-nav li:last-child {
+    margin-right: 0;
+}
+#friend-link-wrapper {
+    width: 980px;
+    margin: 0 auto 50px;
+    text-align: left;
+}
+.friend-link {
+    width: 190px;
+    float: left;
+}
+.friend-link-title {
+    color: silver;
+}
+.friend-link-content {
+    line-height: 150%
+}
+/*#copyright {*/
+
+/*}*/

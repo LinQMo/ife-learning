@@ -1,0 +1,160 @@
+.clearfix::before,
+.clearfix::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+#task6-1 .center{
+    background-color: red;
+    width: 960px;
+}
+#task6-1-1 {
+    margin: 0 auto;
+}
+#task6-1-2 {
+    position:relative;
+    left:50%;
+    margin-left: -480px;
+    /*height: 16px;*/
+}
+#task6-1-2 .center{
+    /*margin-left: -480px;*/
+}
+#task6-2 {
+    position:relative;
+    /*width:200px;*/
+    /*height: 200px;*/
+    padding: 10px;
+    float:left;
+    border: 2px solid black;
+}
+#task6-2 img{
+    position: absolute;
+    width: 10px;
+}
+.top-left {
+    top: -3px;
+    left: -3px;
+    transform: rotate(270deg);
+}
+.top-right {
+    top: -3px;
+    right: -3px;
+}
+.bottom-left {
+    bottom: -3px;
+    left: -3px;
+    transform: rotate(180deg);
+}
+.bottom-right {
+    bottom: -3px;
+    right: -3px;
+    transform: rotate(90deg);
+}
+
+.div-A {
+    background-color: red;
+}
+.div-B {
+    background-color: blue;
+}
+.div-C {
+    background-color: yellow;
+}
+#task6-3-1 .div-A{
+    float: left;
+    width: 200px;
+    clear: left;
+}
+#task6-3-2 .div-A {
+    position: absolute;
+    width: 200px;
+    /*background-color: ;*/
+}
+#task6-3-2 .div-B {
+    margin-left: 200px;
+}
+
+#task6-4 {
+    position: relative;
+}
+#task6-4-1 .div-A {
+    float: left;
+    width: 200px;
+}
+#task6-4-1 .div-C {
+    float: right;
+    width: 200px;
+}
+
+#task6-4-2 .div-A {
+    position: absolute;
+    width: 200px;
+}
+#task6-4-2 .div-B {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#task6-4-2 .div-C {
+    position: absolute;
+    right: 0;
+    width: 200px;
+}
+
+#task6-5 {
+    overflow: hidden;
+    padding: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+}
+#task6-5 .float-item{
+    float:left;
+    background-color: blue;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+
+#task1-4 h1 {
+    color: blue;
+}
+#task1-4 h2 {
+    font-size: 14px;
+}
+#task1-4 body > p {
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+}
+#task1-4 img {
+    border: 2px solid red;
+    width: 100px;
+}
+#task1-4 section p:first-child{
+    text-indent: 2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: right;
+}
+#task1-4 section p:nth-child(2){
+    white-space: pre;
+    color: blue;
+    line-height: 30px;
+    /*font: */
+    font-family: "sans-serif", "Microsoft YaHei";
+    font-size: 12px;
+    font-weight: 400;
+}
+#task1-4 section p:last-child{
+    word-spacing: 10em;
+    font-family: "Bitstream Vera Serif Bold", "sans-serif";
+}
