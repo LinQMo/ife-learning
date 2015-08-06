@@ -24,7 +24,7 @@
     height: 50px;
     border-radius: 25px;
 }
-ul{
+#logo-pic ul{
     list-style: none;
     position: absolute;
     right: 0px;
@@ -33,7 +33,7 @@ ul{
     font-family: 宋体;
 
 }
-li{
+#logo-pic ul li{
     display: inline;
     margin-right: 28px;
 }
@@ -141,12 +141,54 @@ li{
     height: 400px;
     background-color: aliceblue;
 }
-#footer{
+#foot{
     width: 100%;
     height: 280px;
     background-color: black;
 }
-#foot-content-top{
-    
+/*foot部分*/
+#foot-nav{
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid grey 1px;
 }
+#foot-nav li{
+    display: inline;
+}
+#link-wrapper{
+    width: 980px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.friend-link{
+    float: left;
+    margin-left: 118px;
+}
+.friend-link-content{
+    text-align: center;
+}
+.friend-link-content li{
+    list-style: none;
+}
+#version p{
+    text-align: center;
+}
+#version img{
+    display: block;
+    margin: 0 auto;
+}
+#foot-nav-wrap,#version{
+    color: white;
+}
+h5{
+    color: white;
+}
+link{
+    color: white;
 
+}
+li a{
+    color: white;
+}
