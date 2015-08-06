@@ -24,7 +24,7 @@
     height: 50px;
     border-radius: 25px;
 }
-#logo-pic ul{
+#navi-menu ul{
     list-style: none;
     position: absolute;
     right: 0px;
@@ -33,7 +33,11 @@
     font-family: 宋体;
 
 }
-#logo-pic ul li{
+/*#logo-pic ul li{*/
+    /*display: inline;*/
+    /*margin-right: 28px;*/
+/*}*/
+#navi-menu ul li{
     display: inline;
     margin-right: 28px;
 }
@@ -192,3 +196,64 @@ link{
 li a{
     color: white;
 }
+
+
+/*blog-web*/
+
+/*content部分*/
+#blog-content-container-wrap{
+    background-color:gainsboro;
+    width: 100%;
+    height: 900px;
+}
+#blog-content-container{
+    margin: 0 auto;
+    width: 980px;
+}
+#content-left{
+    /*background-color: white;*/
+    width: 750px;
+    float: left;
+}
+
+#content-right{
+    background-color: white;
+    width: 220px;
+    height: 600px;
+    float: right;
+}
+.content-left-text-wrap{
+    border: solid red 1px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-left-text-wrap h5{
+    font-size: 16px;
+    color: darkorchid;
+}
+.content-left-text-wrap h6{
+    font-size: 12px;
+    color: #666666;
+}
+.content-left-text-wrap p{
+    font-size: 11px;
+    /*font-family:"宋体";*/
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
