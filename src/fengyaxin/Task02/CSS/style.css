@@ -217,9 +217,9 @@ li a{
 }
 
 #content-right{
-    background-color: white;
+    /*background-color: white;*/
     width: 220px;
-    height: 600px;
+    /*height: 600px;*/
     float: right;
 }
 .content-left-text-wrap{
@@ -227,14 +227,19 @@ li a{
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 .content-left-text-wrap h5{
     font-size: 16px;
     color: darkorchid;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .content-left-text-wrap h6{
     font-size: 12px;
     color: #666666;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .content-left-text-wrap p{
     font-size: 11px;
@@ -242,8 +247,61 @@ li a{
     padding: 10px;
 }
 
+#content-right-search{
+    height: 80px;
+    border: solid red 1px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+#content-right-catalogue{
+    height: 200px;
+    border: solid red 1px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+#content-right-calendar{
+    height: 238px;
+    border: solid red 1px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#content-right-tags{
+    height: 197px;
+    border: solid red 1px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-left-text-flags{
+    width: 53px;
+    height: 80px;
+    background-color: #ffaa76;
+    position: absolute;
+    left: -53px;
+    top: 23px;
+}
+
+.content-left-text-flags ul{
+    list-style: none;
+}
+.content-left-text-flags ul li{
+    padding: 10px;
+}
+.content-left-text-flags ul li:first-child{
+    background-color: #3F104A;
+    color: white;
+}
+.content-left-text-flags ul li:last-child{
+    background-color:#9447A8;
+    color: white;
+}
 
 
 
