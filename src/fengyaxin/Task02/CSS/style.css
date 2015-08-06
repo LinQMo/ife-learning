@@ -223,7 +223,7 @@ li a{
     float: right;
 }
 .content-left-text-wrap{
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -249,15 +249,17 @@ li a{
 
 #content-right-search{
     height: 80px;
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 42px;
+    padding-left: 8px;
 
 }
 #content-right-catalogue{
-    height: 200px;
-    border: solid red 1px;
+    /*height: 200px;*/
+    /*border: solid red 1px;*/
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -265,7 +267,7 @@ li a{
 }
 #content-right-calendar{
     height: 238px;
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -273,7 +275,7 @@ li a{
 }
 #content-right-tags{
     height: 197px;
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -282,7 +284,6 @@ li a{
 .content-left-text-flags{
     width: 53px;
     height: 80px;
-    background-color: #ffaa76;
     position: absolute;
     left: -53px;
     top: 23px;
@@ -302,7 +303,44 @@ li a{
     background-color:#9447A8;
     color: white;
 }
+/*#content-right-catalogue td{*/
+    /*padding: 17px;*/
+/*}*/
+/*#content-right-catalogue tr{*/
+    /*margin-bottom: 2px;*/
+/*}*/
 
+#content-right-catalogue li{
+    padding: 17px;
+    border-bottom: solid #DADADA 1px;
+    margin-bottom: 4px;
+    border-left: solid #D7B8E0;
+
+}
+
+#content-right-catalogue li:hover{
+    border-left-color: #3E1C47;
+
+}
+
+#searchBar{
+    /*background-color: #ffaa76;*/
+    margin: 0 auto;
+}
+#searchBar img{
+    width: 40px;
+    height: 39px;
+    float: left;
+}
+#searchBar input{
+    width: 120px;
+    height: 35px;
+    float: left;
+}
+
+#glass-pic{
+    background-color: #D5D5D5;
+}
 
 
 
