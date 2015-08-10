@@ -193,7 +193,7 @@ link{
     color: white;
 
 }
-li a{
+.friend-link a{
     color: white;
 }
 
@@ -347,22 +347,83 @@ li a{
     height: 100px;
     padding: 20px;
 }
-#pages-all span{
-    margin: 10px;
-    padding: 15px;
-    background-color: white;
 
-}
-#pages-all{
+#pagebar ul{
     margin: 0 auto;
 }
+.pagebar-link a{
+    text-decoration: none;
+    color: black;
+}
+.pagebar-link{
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    float: left;
+    background-color: white;
+}
+.pagebar-link:hover{
+    background-color: #9447A8;
+    color: white !important;
 
+}
 
+/*日历*/
+#calendarbar{
+    color: gainsboro;
+    text-align: center;
+}
+.calendarbar-nav{
+    color: #9447A8;
+}
+#prev{
+    margin-right: 45px;
+}
+#next{
+    margin-left: 45px;
+}
 
+.calendarbar-ul{
+    padding: 6px;
+    border-bottom: solid gainsboro 1px;
+}
+.calendarbar-ul li{
+    list-style: none;
+    float: left;
+}
+.calendarbar-ul a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    line-height: 20px;
+    width: 29px;
+}
+.calendarbar-ul a:hover{
+    background-color: #3E1C47;
+    color: white;
+}
 
-
-
-
-
-
+/*tags*/
+#tagbar{
+    text-align: center;
+}
+h6{
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    color: gray;
+}
+#tagbar a{
+    text-decoration: none;
+}
+#tagbar strong{
+    font-size: 28px;
+}
+#tagbar em{
+    font-style: normal;
+    font-size: 22px;
+}
+#tagbar span{
+    margin: 10px;
+}
 
