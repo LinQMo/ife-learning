@@ -1,0 +1,9 @@
+arr = aeterejofjieiowjrioe
+new arr2
+arr2[1]=arr[1]
+for arr
+    遍历arr2，检查是否存在同arr[i]相等的元素。
+    若不存在，则push(arr[i])。
+
+return arr2
+

@@ -22,3 +22,20 @@ function initEvent(){
     $("addbtn").addEventListener("click",addEventHandle,false);
 }
 initEvent();
+
+
+//function uniqArray(arr)
+//{
+//    var targeArr=[arr[0]];
+//    for(var i=0;i<arr.length;i++)
+//    {
+//        for(var j=0;j<targeArr.length;j++)
+//        {
+//            if(arr[i] == targeArr[j])
+//                break;
+//            else
+//                targeArr.push(arr[i]);
+//        }
+//    }
+//    return targeArr;
+//}
