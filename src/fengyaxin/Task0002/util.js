@@ -96,21 +96,23 @@
 //}
 
 //数组去重
-function uniqArrayV1(arr) {
-    var targeArr=arr;
-    for(var i=0;i<targeArr.length;i++)
-    {
-        for(var j=0;j< arr.length;j++)
-        {
-            if( targeArr[j]==arr[i])
-                break;
-            else
-                targeArr.pop(arr[i]);
-        }
-    }
-    return targeArr;
-}
+//未成功版
+//function uniqArrayV1(arr) {
+//    var targeArr=arr;
+//    for(var i=0;i<targeArr.length;i++)
+//    {
+//        for(var j=0;j< arr.length;j++)
+//        {
+//            if( targeArr[j]==arr[i])
+//                break;
+//            else
+//                targeArr.pop(arr[i]);
+//        }
+//    }
+//    return targeArr;
+//}
 
+//V2版本伪代码
 // aeterejofjieiowjrioe
 //arr = aeterejofjieiowjrioe
 //new arr2
@@ -121,28 +123,28 @@ function uniqArrayV1(arr) {
 //
 //return arr2
 
-function uniqArrayV2(arr){
-    var arr2=[];
-    arr2[0]=arr[0];
-    for(var i=0;i<arr.length;i++){
-        for(var j=0;j<arr2.length;j++){
-            var b = false;
-            if(arr[i]==arr2[j]){
-                b=true;
-                break;
-            }
-        }
-        if(b==false){
-            arr2.push(arr[i]);
-        }
-    }
-    return arr2;
-}
-
-// 使用示例
-var a = [1, 3, 5, 7, 5, 3];
-var b = uniqArrayV2(a);
-console.log(b); // [1, 3, 5, 7]
+//function uniqArrayV2(arr){
+//    var arr2=[];
+//    arr2[0]=arr[0];
+//    for(var i=0;i<arr.length;i++){
+//        for(var j=0;j<arr2.length;j++){
+//            var b = false;
+//            if(arr[i]==arr2[j]){
+//                b=true;
+//                break;
+//            }
+//        }
+//        if(b==false){
+//            arr2.push(arr[i]);
+//        }
+//    }
+//    return arr2;
+//}
+//
+//// 使用示例
+//var a = [1, 3, 5, 7, 5, 3];
+//var b = uniqArrayV2(a);
+//console.log(b); // [1, 3, 5, 7]
 
 
 // 实现一个简单的trim函数，用于去除一个字符串，头部和尾部的空白字符
@@ -170,6 +172,29 @@ console.log(b); // [1, 3, 5, 7]
 
 
 
+// 实现一个遍历数组的方法，针对数组中每一个元素执行fn函数，并将数组索引和元素作为参数传递
+function each(arr, fn) {
+    for(var i=0;i<arr.length;i++){
+        fn(arr[i],i);
+    }
+}
+
+
+// 其中fn函数可以接受两个参数：item和index
+
+// 使用示例
+var arr = ['java', 'c', 'php', 'html'];
+function output(item, index) {
+    console.log(item);
+}
+each(arr, output);  // java, c, php, html
+
+// 使用示例
+var arr = ['java', 'c', 'php', 'html'];
+function output(item, index) {
+    console.log(index + ': ' + item)
+}
+each(arr, output);  // 0:java, 1:c, 2:php, 3:html
 
 
 
